@@ -7,7 +7,7 @@ cp ./vimrc ~/.vim/vimrc
 ln ~/.vimrc ~/.vim/vimrc
 vim +PluginInstall +qall
 
-curr=׳pwd׳
+curr=`pwd`
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 cd $curr
